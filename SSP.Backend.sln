@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSP.WebAPI", "SSP.WebAPI\SSP.WebAPI.csproj", "{D9702489-0D29-4F65-AD29-8C5CC215F580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSP.Contracts", "..\SSP.Contracts\SSP.Contracts\SSP.Contracts.csproj", "{773C4C5F-66BD-4AFC-9369-54E48B5005E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSP.Contracts", "SSP.Contracts\SSP.Contracts\SSP.Contracts.csproj", "{773C4C5F-66BD-4AFC-9369-54E48B5005E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
