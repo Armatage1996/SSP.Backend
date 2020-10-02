@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SSP.Contracts.Clients
+namespace SSP.Contracts
 {
     public class Client
     {
@@ -12,8 +12,10 @@ namespace SSP.Contracts.Clients
         public string Cellphone { get; set; }
         public string Email { get; set; }
         public DateTime DateCreated { get; set; }
-        public DaDateTime?DateUpdated { get; set; }
+        public DateTime? DateUpdated { get; set; }
         public bool Deleted { get; set; }
+
+        public ICollection<Booking> Bookings { get; set; }
 
     }
 }

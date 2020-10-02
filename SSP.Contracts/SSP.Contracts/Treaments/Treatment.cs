@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SSP.Contracts.Treaments
+namespace SSP.Contracts
 {
-    class Treatment
+    public class Treatment
     {
         public Guid Id { get; set; }
         public string Code { get; set; }
@@ -14,5 +14,7 @@ namespace SSP.Contracts.Treaments
         public DateTime DateCreated { get; set; }
         public DateTime? DateUpdated { get; set; }
         public bool Deleted { get; set; }
+
+        public ICollection<Job> Jobs { get; set; }
     }
 }
