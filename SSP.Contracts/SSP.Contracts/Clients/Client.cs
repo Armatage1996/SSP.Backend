@@ -16,6 +16,6 @@ namespace SSP.Contracts
         public bool Deleted { get; set; }
 
         public ICollection<Booking> Bookings { get; set; }
-
+    
     }
 }
